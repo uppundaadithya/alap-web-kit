@@ -10,6 +10,7 @@ body {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(250, 208, 196, 0.4) 100%), url('nam.png');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
@@ -20,6 +21,7 @@ body {
   flex-direction: column;
   -webkit-tap-highlight-color: transparent;
   font-size: 18px;
+
 }
 
 .container {
@@ -138,8 +140,8 @@ button:focus {
   cursor: pointer;
   transition: all 0.3s ease;
   outline: none;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-top: -54px;
+  margin-left: 80%;
   text-decoration: none;
 }
 
@@ -159,7 +161,7 @@ button:focus {
 }
 .cont{
   display:flex;
-  flex-direction: row;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
